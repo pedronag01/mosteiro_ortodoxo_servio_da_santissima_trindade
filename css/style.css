@@ -1,9 +1,9 @@
 :root {
-    --primary-color: #0F9D58;
-    --background-color: #f0f3f7;
-    --secon-color: #9da2ad;
+    --primary-color: #ffffff;
+    --background-color: #000000;
+    --secon-color: #000000;
     --grey: #7a7a7b;
-    --white: #ffffff;
+    --white: #dbdbdb;
 }
 
 * {
@@ -17,6 +17,7 @@ a {
     color: unset;
     text-decoration: none;
 }
+
 
 body,
 html {
@@ -129,7 +130,7 @@ section {
 
 .slogan h1 {
     font-size: 7rem;
-    color: var(--primary-color);
+    color: rgb(255, 255, 255);
 }
 
 .slogan button {
